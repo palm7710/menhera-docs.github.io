@@ -10,7 +10,7 @@ export default defineUserConfig({
   // GitHub Pages の base:
   // User Pages の場合は '/'
   // Project Pages の場合は '/<repo>/'
-  base: '/',
+  base: '/menhera-docs.github.io/',
   head: [
     ['meta', { name: 'theme-color', content: '#f5f6fa' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }]
