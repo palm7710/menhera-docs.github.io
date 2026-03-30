@@ -1,7 +1,7 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
 
 export default defineThemeConfig({
-  hostname: 'https://example.com',
+  hostname: 'https://palm7710.github.io/menhera-docs.github.io/',
   logo: false,
   navbarTitle: 'menhera.js',
   appearance: false,
