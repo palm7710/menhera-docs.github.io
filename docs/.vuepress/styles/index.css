@@ -145,6 +145,17 @@ body {
   box-shadow: 0 22px 52px rgba(17, 25, 39, 0.12);
 }
 
+.vp-doc div[class*='language-'] pre,
+.vp-doc div[class*='language-'] code,
+.vp-doc div[class*='language-'] .line {
+  color: rgba(244, 247, 255, 0.96);
+}
+
+.vp-doc div[data-highlighter='shiki'] .line span,
+.vp-doc div[class*='language-'] .line span {
+  color: rgba(244, 247, 255, 0.96) !important;
+}
+
 .vp-doc blockquote {
   padding: 1rem 1.2rem;
   border-left: 2px solid rgba(124, 114, 255, 0.28);
