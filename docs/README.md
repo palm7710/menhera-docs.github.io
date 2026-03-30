@@ -5,7 +5,7 @@ config:
   - type: hero
     hero:
       name: menhera.js
-      text: 非同期人間ライブラリ。
+      text: メンヘライブラリ。
       tagline: 感情の不安定性、依存、対人関係の揺らぎを、状態管理として読むためのパロディドキュメント。
       actions:
         - theme: brand
