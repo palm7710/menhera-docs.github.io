@@ -13,7 +13,7 @@ next: /api/
 Stable
   ↓
 Anxious
-  ↓ (trigger 発生)
+  ↓
 Dependent / Unstable
   ↓
 Exploding

@@ -63,3 +63,22 @@ kanojo.prePatch({
   action: '事前連絡'
 })
 ```
+
+## 典型的な使い方
+
+```js
+const kanojo = new Menhera({
+  selfEsteem: 0.2,
+  dependency: 0.9
+})
+
+kanojo.trigger('返信遅延')
+kanojo.send('既読無視')
+
+if (kanojo.getState() === 'Anxious') {
+  kanojo.prePatch({
+    trigger: '返信遅延',
+    action: '事前連絡'
+  })
+}
+```
