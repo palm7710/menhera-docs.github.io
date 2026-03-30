@@ -5,7 +5,7 @@ import plumeConfig from './plume.config'
 
 export default defineUserConfig({
   lang: 'ja-JP',
-  title: 'menhera-docs',
+  title: 'menhera.js',
   description: '感情を技術文書として記述する、日本語の静かなドキュメントサイト。',
   // GitHub Pages の base:
   // User Pages の場合は '/'
